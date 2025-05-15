@@ -1,0 +1,22 @@
+[user]
+	name = minwooKang
+	email = rkdalsdn94@gmail.com
+[core]
+	autocrlf = input
+	autucrlf = true
+	excludesfile = /Users/minu/.gitignore_global
+	quotepath = false
+[commit]
+	template = ~/.gitmessage.txt
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[include]
+	path = ~/dotfiles/.gitconfig-with-fzf
+[init]
+	defaultBranch = main
+[pull]
+	ff = only
