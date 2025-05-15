@@ -1,7 +1,8 @@
 # 🛠️ macOS dotfiles for Warp + Powerlevel10k + fzf
 
 이 저장소는 macOS에서 개발 환경을 일관되게 재현할 수 있도록 구성한 개인 dotfiles입니다. \
-`Warp 터미널` + `Powerlevel10k` + `fzf` 기반으로 최적화되어 있으며, `setup.sh` 실행만으로 모든 구성을 자동으로 적용할 수 있습니다.
+`Warp 터미널` + `Powerlevel10k` + `fzf` 기반, `setup.sh` 실행만으로 모든 구성을 자동으로 적용할 수 있습니다. \
+[gitconfig](https://github.com/rkdalsdn94/dotfiles/blob/main/.gitconfig)에서 [user] 부분은 사용자 설정에 맞춰야 합니다.
 
 ## 📁 구성 파일
 
