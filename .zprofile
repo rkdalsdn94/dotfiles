@@ -23,3 +23,4 @@ export PATH="/usr/local/opt/openjdk/bin:$PATH"
 # React Native 전용 JAVA_HOME
 export REACT_JAVA="$HOME/.sdkman/candidates/java/11.0.23-zulu"
 
+export PATH="/opt/homebrew/opt/mysql@8.0/bin:$PATH"
